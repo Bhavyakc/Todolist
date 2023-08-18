@@ -62,7 +62,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos])
-
+  //Adding new line
   //Just return strings but it should be rapped
   return (
     <> 
